@@ -1,0 +1,91 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "videojuego",
+    "dateExported": "2023-10-18T23:46:05.496Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4a7f16a1-a27c-4247-b86a-dc33aa4ba2d7",
+            "colId": "94d1b664-4329-46da-9c2b-849993b8ec92",
+            "containerId": "",
+            "name": "Add",
+            "url": "http://localhost:3000/videogame/add",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-18T04:50:24.385Z",
+            "modified": "2023-10-18T04:52:56.625Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Mario"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Bros"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cd44ab33-6b37-467b-9877-361de1a7b629",
+            "colId": "94d1b664-4329-46da-9c2b-849993b8ec92",
+            "containerId": "",
+            "name": "Get and Getid",
+            "url": "http://localhost:3000/videogame/getid/652f64a8d7436a66e722573a",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-18T04:50:41.959Z",
+            "modified": "2023-10-18T04:53:43.413Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6fd6fcde-7a5e-4232-b405-c804b0c1eb28",
+            "colId": "94d1b664-4329-46da-9c2b-849993b8ec92",
+            "containerId": "",
+            "name": "delete",
+            "url": "",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-10-18T04:54:06.148Z",
+            "modified": "2023-10-18T04:54:06.148Z",
+            "headers": []
+        },
+        {
+            "_id": "c818bf78-6ec4-4e8d-8eb1-91e8ab41954f",
+            "colId": "94d1b664-4329-46da-9c2b-849993b8ec92",
+            "containerId": "",
+            "name": "Update",
+            "url": "http://localhost:3000/videogame/update/652f64a8d7436a66e722573a",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-10-18T04:54:14.375Z",
+            "modified": "2023-10-18T05:02:19.281Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Cayu"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Mundo malo"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
